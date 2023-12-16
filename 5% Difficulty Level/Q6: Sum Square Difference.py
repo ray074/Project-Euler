@@ -7,7 +7,6 @@ def calculateDifference():
         
     return (total2 ** 2) - total1
 
-
 print(calculateDifference())
 
-# Answer: 
+# Answer: 25164150
