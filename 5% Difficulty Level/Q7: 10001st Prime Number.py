@@ -1,5 +1,3 @@
-#Q7: 
-
 def isPrime(num):
     for divisor in range(2, int(num ** 0.5) + 1):
         if num % divisor == 0:
