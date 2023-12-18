@@ -5,7 +5,7 @@ def findSpecialPyTriplet():
     for a in range(3, 2000):
         for b in range(3, 2000):
             c = sqrt(a**2 + b**2)
-            if c.is_integer() is True and a < b < c:
+            if c.is_integer() and a < b < c:
                 valid.add((a, b, int(c)))
 
     for triple in valid:
