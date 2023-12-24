@@ -11,7 +11,7 @@ def calculateScore(names):
             total += alpha.index(char) + 1
        
         score += total * (pos + 1)
-        return score
+    return score
 
 print(calculateScore(names))
 
