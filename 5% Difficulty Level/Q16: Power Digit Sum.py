@@ -3,6 +3,7 @@ def findSum():
     resultList = list(str(result))
     return sum(int(x) for x in resultList)
 
+
 print(findSum())
 
 # Answer: 1366
