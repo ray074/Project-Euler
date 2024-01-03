@@ -5,6 +5,7 @@ def calculateEvenFibNums(limit=4000000):
         a, b = b, a + b
     return sum(evens)
 
+
 print(calculateEvenFibNums())
 
 # Answer: 4613732
